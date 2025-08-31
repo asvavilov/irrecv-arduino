@@ -55,7 +55,6 @@ void loop() {
       Serial.println(data, BIN);
       Serial.println(dataBitRev, BIN);
       Serial.println(dataBitRevFix, BIN);
-      Serial.println(dataRev, BIN);
 
       decodePacket(dataBitRevFix, bits);
     }
